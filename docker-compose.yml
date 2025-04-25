@@ -37,7 +37,7 @@ services:
       - db
     
   negocio:
-    container_name: web-negocio
+    container_name: web_negocio
     volumes:
       - ./negocio/src:/var/www/html/src
       - ./negocio/public:/var/www/html/public
