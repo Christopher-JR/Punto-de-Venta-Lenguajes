@@ -18,7 +18,7 @@
         public function read(Request $request, Response $response, $args){
             
             $res = ["datos" => "leídos"];
-            status = 200; //Contamos la cantidad de filas que devuelve la consulta
+            $status = 200; //Contamos la cantidad de filas que devuelve la consulta
             
             $response->getBody()->write(json_encode($res)); //Retorna la respuesta en formato JSON
             
